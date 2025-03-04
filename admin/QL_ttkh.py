@@ -5,7 +5,7 @@ import pymysql
 # MySQL connection
 conn = pymysql.connect(host='127.0.0.1',
                        user='root',
-                       password='Tien123@',
+                       password='141512',
                        db='qlth',
                        cursorclass=pymysql.cursors.DictCursor)
 cursor = conn.cursor()
